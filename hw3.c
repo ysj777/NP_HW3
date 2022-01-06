@@ -110,6 +110,7 @@ int main(int argc,char** argv){
 
         char P_cnt[100];
         sprintf(P_cnt, "Packet count = %d", ++packet_cnt);
+        //printf("%s\n",P_cnt);
         print_cnt(P_cnt);
 
         printf("\n<Info>\n");
